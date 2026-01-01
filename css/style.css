@@ -150,6 +150,7 @@ footer ul li {
 }
 
 
+
 /*Tipografia----*/
 
 h1 {
@@ -170,6 +171,7 @@ h3 {
     font-weight: 700;
     letter-spacing: -0.04em;
 }
+
 
 
 
@@ -231,11 +233,12 @@ h3 {
 
 
 
+
 /* => Corrige sobreposição da navbar fixa no topo */
 
 /* espaço padrão para cobrir a navbar fixa (desktop) */
 body {
-  padding-top: 70px; /* ajuste 70px conforme a altura real da sua navbar */
+  padding-top: 60px; /* ajuste 60px conforme a altura real da sua navbar */
 }
 
 /* navbar mais baixa em telas pequenas (ex.: 56px) */
