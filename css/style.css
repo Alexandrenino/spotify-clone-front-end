@@ -234,6 +234,7 @@ h3 {
 
 
 
+
 /* => Corrige sobreposição da navbar fixa no topo */
 
 /* espaço padrão para cobrir a navbar fixa (desktop) */
@@ -252,4 +253,14 @@ body {
 .navbar-transparente {
   background-color: rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(4px);
+}
+
+/* Ensure carousel titles are fully below the fixed navbar */
+:root{
+  --navbar-height: 60px; /* adjust if navbar height changes */
+  --navbar-gap: 20px;    /* extra space between navbar and titles */
+}
+
+#home .capa {
+  padding-top: calc(var(--navbar-height) + var(--navbar-gap));
 }
