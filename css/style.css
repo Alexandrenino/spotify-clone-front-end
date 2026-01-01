@@ -258,7 +258,7 @@ body {
 /* Ensure carousel titles are fully below the fixed navbar */
 :root{
   --navbar-height: 60px; /* adjust if navbar height changes */
-  --navbar-gap: 20px;    /* extra space between navbar and titles */
+  --navbar-gap: 30px;    /* extra space between navbar and titles */
 }
 
 #home .capa {
